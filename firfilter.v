@@ -1,4 +1,5 @@
 /*-------------*-----codecout----------*------------------*/
+
 module filter (clock, reset, mclk, sclk, lrck, seq, l_codec_to_fpga, r_codec_to_fpga ,l_fpga_to_codec , r_fpga_to_codec) ;
 parameter COUNTER_DEPTH1 = 7'd10 ;
 parameter ARRAY_WIDTH = 7'd20;
